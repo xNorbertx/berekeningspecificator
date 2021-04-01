@@ -1,0 +1,126 @@
+[
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Waarde": 352.75,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2019-05-01T00:00:00.0000000+02:00",
+			"TotEnMet": "2019-05-31T00:00:00.0000000+02:00"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	},
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Waarde": 352.82,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2019-06-01T00:00:00.0000000+02:00",
+			"TotEnMet": "2019-06-30T00:00:00.0000000+02:00"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	},
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Waarde": 352.82,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2019-07-01T00:00:00.0000000+02:00",
+			"TotEnMet": "2019-07-31T00:00:00.0000000"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	},
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Waarde": 352.82,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2019-08-01T00:00:00.0000000",
+			"TotEnMet": "2019-08-31T00:00:00.0000000+02:00"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	},
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Waarde": 352.82,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2019-09-01T00:00:00.0000000+02:00",
+			"TotEnMet": "2019-09-30T00:00:00.0000000+02:00"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	},
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Waarde": 149.95,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2019-10-01T00:00:00.0000000+02:00",
+			"TotEnMet": "2019-10-31T00:00:00.0000000+01:00"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	},
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Waarde": 149.95,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2019-11-01T00:00:00.0000000+01:00",
+			"TotEnMet": "2019-11-30T00:00:00.0000000+01:00"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	},
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Waarde": 149.88,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2019-12-01T00:00:00.0000000+01:00",
+			"TotEnMet": "2019-12-31T00:00:00.0000000+01:00"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	},
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Werkgever": "KLM",
+		"Waarde": 100.0,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2021-04-01T00:00:00.0000000+02:00",
+			"TotEnMet": "2021-04-30T00:00:00.0000000+02:00"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	},
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Werkgever": "KLM",
+		"Waarde": 150.0,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2021-05-01T00:00:00.0000000+02:00",
+			"TotEnMet": "2021-05-07T00:00:00.0000000+02:00"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	},
+	{
+		"_typeTag": "RapportVariabeleBase",
+		"Nummer": "A57",
+		"Werkgever": "UWV",
+		"Waarde": 100.0,
+		"Periode": {
+			"_typeTag": "Periode",
+			"Van": "2021-05-03T00:00:00.0000000+02:00",
+			"TotEnMet": "2021-05-09T00:00:00.0000000+02:00"
+		},
+		"Data": "SubjectNr: 84604040; prorato: True"
+	}
+]
