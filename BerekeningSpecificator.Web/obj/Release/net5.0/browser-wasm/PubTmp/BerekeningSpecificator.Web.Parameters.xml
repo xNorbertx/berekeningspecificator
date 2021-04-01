@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="berekeningspecificator" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Repos\\berekeningspecificator\\BerekeningSpecificator\.Web\\obj\\Release\\net5\.0\\browser-wasm\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>
