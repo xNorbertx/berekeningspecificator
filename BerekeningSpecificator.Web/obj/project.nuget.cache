@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R0CeMfTqB7Sbm9SHx8mHQhRwipUZn0A7s2geDREe0eIpuDEBd8wnvp03wr/QTdwqpGmd+U6nyWvExWgErhS6uw==",
+  "dgSpecHash": "KPCgUkB3zIaeU7Il2REvRVgxEbbcduM2iETN3tOT61e3V4JA+HwtoK7lDgcEDMTg2RunJDoThVdELMmrkZE9nQ==",
   "success": true,
-  "projectFilePath": "D:\\repos\\RegelsEnWetten\\BerekeningSpecificator\\BerekeningSpecificator.Web\\BerekeningSpecificator.Web.csproj",
+  "projectFilePath": "D:\\repos\\BerekeningSpecificator\\BerekeningSpecificator.Web\\BerekeningSpecificator.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bakkern\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.1\\microsoft.aspnetcore.authorization.5.0.1.nupkg.sha512",
     "C:\\Users\\bakkern\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.1\\microsoft.aspnetcore.components.5.0.1.nupkg.sha512",
