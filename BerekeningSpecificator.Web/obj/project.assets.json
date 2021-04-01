@@ -288,6 +288,15 @@
           "lib/net5.0/Microsoft.JSInterop.WebAssembly.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.IO.Pipelines/5.0.1": {
         "type": "package",
         "compile": {
@@ -592,6 +601,15 @@
         },
         "runtime": {
           "lib/net5.0/Microsoft.JSInterop.WebAssembly.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "System.IO.Pipelines/5.0.1": {
@@ -1087,6 +1105,33 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.IO.Pipelines/5.0.1": {
       "sha512": "qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
       "type": "package",
@@ -1140,23 +1185,24 @@
     "net5.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.1",
+      "Newtonsoft.Json >= 13.0.1",
       "System.Net.Http.Json >= 5.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bakkern\\.nuget\\packages\\": {}
+    "C:\\Users\\bakkert\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\BerekeningSpecificator\\BerekeningSpecificator.Web\\BerekeningSpecificator.Web.csproj",
+      "projectUniqueName": "D:\\Repos\\berekeningspecificator\\BerekeningSpecificator.Web\\BerekeningSpecificator.Web.csproj",
       "projectName": "BerekeningSpecificator.Web",
-      "projectPath": "D:\\repos\\BerekeningSpecificator\\BerekeningSpecificator.Web\\BerekeningSpecificator.Web.csproj",
-      "packagesPath": "C:\\Users\\bakkern\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\BerekeningSpecificator\\BerekeningSpecificator.Web\\obj\\",
+      "projectPath": "D:\\Repos\\berekeningspecificator\\BerekeningSpecificator.Web\\BerekeningSpecificator.Web.csproj",
+      "packagesPath": "C:\\Users\\bakkert\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\berekeningspecificator\\BerekeningSpecificator.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bakkern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bakkert\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1164,7 +1210,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/wigo4it/_packaging/3rd-party/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/wigo4it/_packaging/Wigo4It/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -1191,6 +1239,10 @@
             "target": "Package",
             "version": "[5.0.1, )"
           },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
           "System.Net.Http.Json": {
             "target": "Package",
             "version": "[5.0.0, )"
@@ -1209,7 +1261,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.1, 5.0.1]"
+            "version": "[5.0.4, 5.0.4]"
           }
         ],
         "frameworkReferences": {
@@ -1217,7 +1269,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

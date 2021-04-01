@@ -29,13 +29,11 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-[Ll]ogs/
-
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
-#wwwroot/
+#wwwroot
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
@@ -127,6 +125,9 @@ $tf/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
+
+# JustCode is a .NET coding add-in
+.JustCode
 
 # TeamCity is a build add-in
 _TeamCity*
@@ -347,6 +348,12 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# Ionide (cross platform F# VS Code tools) working folder
-.ionide/
+# Specflow generated code
+*.feature.cs
 
+# SonarQube ruleset
+*.ruleset
+.sonarlint/
+
+# VS Code
+.vscode/

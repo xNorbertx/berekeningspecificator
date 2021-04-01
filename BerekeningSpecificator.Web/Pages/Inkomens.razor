@@ -1,0 +1,41 @@
+﻿@page "/inkomens"
+@inject HttpClient Http
+@using BerekeningSpecificator.Web.Entities
+
+<h1>Inkomens</h1>
+
+@if (variabelen == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Werkgever</th>
+                <th>Bedrag</th>
+                <th>Periode</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var attribuut in variabelen.Where(x=> !string.IsNullOrEmpty(x.Werkgever)))
+            {
+                <tr>
+                    <td>@attribuut.Werkgever</td>
+                    <td>@attribuut.Waarde</td>
+                    <td>@attribuut.Periode.ToString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private RapportVariabeleBase[] variabelen;
+
+    protected override async Task OnInitializedAsync()
+    {
+        variabelen = await Http.GetFromJsonAsync<RapportVariabeleBase[]>("data/rapport2.json");
+    }
+}
